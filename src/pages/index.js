@@ -59,7 +59,7 @@ function index() {
       },
       data: [
         {
-          text: "Hello Everyone!",
+          text: input,
         },
       ],
       responseType: "json",
