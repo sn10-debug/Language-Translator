@@ -30,7 +30,13 @@ function index() {
       hindi: "hi",
       tamil: "ta",
     };
-    let key = "f374422b21dd454e8d116325acba6956";
+    let key = "";
+
+    if(key==""){
+
+      alert("Please assign the Subscription Key")
+      return
+    }
     let endpoint = "https://api.cognitive.microsofttranslator.com";
 
     let location = "southeastasia";
